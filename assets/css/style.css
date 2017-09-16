@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box !important;
+}
+
+
+html {
+    font-size: 25px;
+}
+
+
+
+body {
+    background: url("../images/gauntlet.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.gameTitle {
+    background-color: white;
+    color: #030c95;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 2px #030c95 solid;
+    text-align: center;
+}
+
+.instructions {
+    background-color: #ddd;
+    color: #1a0f85;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 2px #030c95 solid;
+}
+
+#numDisplay {
+    background-color: #ddd;
+    color: #1a0f85;
+    padding: 20px;
+    height: 100%;
+    padding-bottom: 45px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px #030c95 solid;
+    float: left;
+
+}
+
+#wins-losses {
+    background-color: #ddd;
+    height: 100%;
+    color: #1a0f85;
+    margin-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    border-radius: 5px;
+    border: 2px #030c95 solid;
+    float: left;
+}
+
+.stones img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    border: 2px gold solid;
+}
+
+.gem img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 2px #030c95 solid;
+}
+
+.gem:hover {
+    cursor: pointer;
+    opacity: .85;
+    border: 4px #030c95 solid;
+}
+
+
+#currentScore {
+    background-color: #ddd;
+    color: #1a0f85;
+    padding: 20px;
+    margin-top: 10px;
+    height: 100%;
+    padding-bottom: 45px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px #030c95 solid;
+    float: left;
+}
+
+#counter {
+    font-weight: bolder;
+}
+
+@media screen and (max-width:1280px) {
+        .stones img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:980px) {
+        .stones img {
+        width: 175px;
+        height: 175px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .stones img {
+        width: 125px;
+        height: 125px;
+        float: left;
+    }
+    }
+
+@media only screen and (max-width: 640px){
+ 
+    .stones img {
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    .gem img {
+        float: left;
+}*/

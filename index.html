@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CrystalSeeker</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+   <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+    <script src='assets/javascript/game.js' type="text/javascript"></script>
+    
+  
+
+</head>
+<body>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 gameTitle">
+            <h4>Thanos is coming!!</h4>
+            </div>
+
+            <div class="col-lg-4">   
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-6 instructions">
+            <p>A random number will be given to you at the beginning of the game, called the winning number.</p>
+            <p>These are the four stones that have appeared so far in the Marvel Universe! When one is clicked you will be given a random number associated with that stone. </p>
+            <p> In order to win the game, your total score must match the winning number that is given to you at the start of the game. You lose if your total score goes over the random number!</p>
+            <p>In every start of the game, the value of the stones get randomized. The value of the stone is displayed in the total score, when clicked on.</p>
+                            
+            </div>
+            <div class="col-md-6"></div>
+
+        </div>
+
+            
+            
+        <div class="row ">
+
+            <div class="col-md-4" id = "numDisplay">
+                <h4>Winning Number!:</h4>
+                <h4><span  id="winNum"></span></h4>             
+            </div>
+
+            <div class="col-md-4" id="wins-losses">
+                <h4 id="winOrLose"></h4>
+                <h4>Games Won:<span id="wins"></span></h4>
+                <h4>Games Lost:<span id="losses"></span></h4>
+                
+            </div>
+
+
+        <div class="row stones Images">
+            
+            <div class="col-sm-3" ><img class="gem" id="stone1" src="assets/images/space.png" alt="1stStone">
+            </div>
+
+            <div class="col-sm-3" ><img class="gem" id="stone2" src="assets/images/realitystone.jpg" alt="2ndStone"></div>
+
+            <div class="col-sm-3" ><img class = "gem" id="stone3" src="assets/images/powerstone.png" alt="3rdStone"></div>
+
+            <div class="col-sm-3" ><img class = "gem" id="stone4" src="assets/images/Mindstone.png" alt="4thStone"></div>            
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4" id="currentScore">
+                <h4>Total Score: <span id = "counter"></span></h4>
+            </div>
+        </div>
+            
+        
+</div>
+
+</body>
+</html>
